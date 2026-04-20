@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_blog_items",
+  "info": {
+    "displayName": "blog-item",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}
